@@ -29,7 +29,7 @@ npm install @6881558/node.js-for-site
 在安装完成后，您可以通过以下命令启动代理服务：
 
 ```bash
-nodejs-proxy
+node.js-for-site
 ```
 
 ### 自定义端口和 UUID
