@@ -11,12 +11,12 @@ const argv = require('yargs')
     .option('port', {
         alias: 'p',
         describe: 'Specify the port number',
-        default: 7860
+        default: 8080
     })
     .option('uuid', {
         alias: 'u',
         describe: 'Specify the uuid',
-        default: 'd342d11e-d424-4583-b36e-524ab1f0afa4'
+        default: 'ce565ea7-e5f8-45cd-8566-7e6edc105b0e'
     })
     .help()
     .argv;
