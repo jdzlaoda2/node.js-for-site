@@ -11,4 +11,4 @@ COPY . .
 RUN rm -rf dist && npm install
 
 # 设置默认的命令，即启动应用程序
-CMD ["npx", "nodejs-site"]
+CMD ["npx", "node" "index.js"]
